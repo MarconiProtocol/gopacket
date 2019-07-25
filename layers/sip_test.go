@@ -9,7 +9,7 @@ package layers
 import (
 	"testing"
 
-	"github.com/google/gopacket"
+	"github.com/MarconiProtocol/gopacket"
 )
 
 // First packet is a REGISTER Request

@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/bytediff"
-	"github.com/google/gopacket/layers"
+	"github.com/MarconiProtocol/gopacket"
+	"github.com/MarconiProtocol/gopacket/bytediff"
+	"github.com/MarconiProtocol/gopacket/layers"
 )
 
 func TestNotFrag(t *testing.T) {

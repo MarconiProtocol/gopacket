@@ -11,7 +11,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/google/gopacket/layers"
+	"github.com/MarconiProtocol/gopacket/layers"
 )
 
 // ErrNgVersionMismatch gets returned for unknown pcapng section versions. This can only happen if ReaderOptions.SkipUnknownVersion == false

@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/google/gopacket"
+	"github.com/MarconiProtocol/gopacket"
 )
 
 // DNSClass defines the class associated with a request/response.  Different DNS

@@ -28,8 +28,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
+	"github.com/MarconiProtocol/gopacket"
+	"github.com/MarconiProtocol/gopacket/layers"
 )
 
 // TODO:
@@ -39,7 +39,7 @@ import (
 
 var defaultDebug = false
 
-var debugLog = flag.Bool("assembly_debug_log", defaultDebug, "If true, the github.com/google/gopacket/reassembly library will log verbose debugging information (at least one line per packet)")
+var debugLog = flag.Bool("assembly_debug_log", defaultDebug, "If true, the github.com/MarconiProtocol/gopacket/reassembly library will log verbose debugging information (at least one line per packet)")
 
 const invalidSequence = -1
 const uint32Max = 0xFFFFFFFF

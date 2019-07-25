@@ -11,11 +11,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/examples/util"
-	"github.com/google/gopacket/layers"
-	"github.com/google/gopacket/pcap"
-	"github.com/google/gopacket/tcpassembly"
+	"github.com/MarconiProtocol/gopacket"
+	"github.com/MarconiProtocol/gopacket/examples/util"
+	"github.com/MarconiProtocol/gopacket/layers"
+	"github.com/MarconiProtocol/gopacket/pcap"
+	"github.com/MarconiProtocol/gopacket/tcpassembly"
 	"log"
 	"time"
 )

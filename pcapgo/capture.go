@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/google/gopacket"
+	"github.com/MarconiProtocol/gopacket"
 	"github.com/mdlayher/raw"
 )
 

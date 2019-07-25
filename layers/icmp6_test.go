@@ -8,7 +8,7 @@
 package layers
 
 import (
-	"github.com/google/gopacket"
+	"github.com/MarconiProtocol/gopacket"
 	"net"
 	"reflect"
 	"testing"
